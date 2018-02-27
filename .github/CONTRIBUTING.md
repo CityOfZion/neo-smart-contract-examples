@@ -33,7 +33,7 @@ This project is current under rapid developments a general guidelines are:
 ## Pull Request Process
 
 1. Update the `README.md` with details of changes to the interface, this includes new environment variables, exposed ports, useful file locations and container parameters.
-1. Pull requests are made against feature branches and the develop branch.
+1. Pull requests are made against feature branches and the `master` branch.
 1. You may merge the Pull Request in once you have the sign-off of a developer on the project.
 
 ---
