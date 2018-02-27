@@ -62,7 +62,7 @@ TBA
 
 | Name | Description | Python | C#
 | --- | --- | --- | ---
-| Block Height | Get current block height. | N/A | N/A
+| Current Height | Get current block height. | [Source](examples/python/block/current-height.py) | N/A
 | Current Timestamp | Get timestamp of current block. | N/A | N/A
 | Block Timestamp | Get timestamp of a given block height. | N/A | N/A
 | Block Merkle | Get merkle value of a given block height. | N/A | N/A
