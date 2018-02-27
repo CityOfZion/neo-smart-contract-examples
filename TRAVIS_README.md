@@ -12,6 +12,8 @@
 * Open wallet: `open wallet ./demo/wallets/neo-privnet.wallet`
 * Rebuild wallet: `wallet rebuild`
 
+---
+
 ## Contacts Executions
 
 ### From `lint` workstation
@@ -25,3 +27,30 @@
 
 * `build /Users/lint/ProjectGit/rockacola/neo-smart-contract-examples/examples/python/02-number/add.py test 0505 02 False False 2 5`
 * `import contract /Users/lint/ProjectGit/rockacola/neo-smart-contract-examples/examples/python/02-number/add.avm 0505 02 False False`
+
+---
+
+## Developer Notes
+
+### To Do
+
+#### High Priority
+
+* Clean up `functional-utilities`.
+* Add examples by split up `UtilContract`.
+* Update README with possible examples.
+* Establish communication to seek for C# dev and Chinese translators.
+
+#### Medium Priority
+
+* Deploy multiple contracts to NEO TestNet
+
+#### Low Priority
+
+* Regression test again NEO TestNet via `neon-js`.
+
+---
+
+## References
+
+TBA
