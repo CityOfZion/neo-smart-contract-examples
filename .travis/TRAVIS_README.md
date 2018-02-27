@@ -74,6 +74,15 @@ build /Users/travis/ProjectGit/rockacola/neo-smart-contract-examples/examples/py
 import contract /Users/travis/ProjectGit/rockacola/neo-smart-contract-examples/examples/python/block/current-height.avm ff 02 False False
 ```
 
+#### Account
+
+##### Is Owner
+
+``` py
+build /Users/travis/ProjectGit/rockacola/neo-smart-contract-examples/examples/python/account/is-owner.py test ff 01 False False
+import contract /Users/travis/ProjectGit/rockacola/neo-smart-contract-examples/examples/python/account/is-owner.avm ff 01 False False
+```
+
 ---
 
 ## Developer Notes
