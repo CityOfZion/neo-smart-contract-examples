@@ -10,8 +10,9 @@ Check out `/examples` directory for various of example smart contracts in differ
 
 This project is urgently seeking for contributors of following categories:
 
-* Smart contract developers to help translate existing Python examples into C#
-* Simplified Chinese translator to translate markdown and source documentations
+* C# developers to help translate existing Python examples.
+* Simplified Chinese translator to translate markdown and source documentations.
+* Documentation reviewers to help minimize the learning curve in this project and help improve knowledge sharing.
 
 ---
 
@@ -25,6 +26,7 @@ This project is urgently seeking for contributors of following categories:
 | Local Variable | Returns string value of a local constant. | N/A | N/A
 | Global Variable | Returns integer value of a global constant. | N/A | N/A
 | Global Variable 2 | Returns bytes value of a global constant. | N/A | N/A
+| Echo | TBA | N/A | N/A
 
 ### Number
 
@@ -43,6 +45,7 @@ This project is urgently seeking for contributors of following categories:
 | --- | --- | --- | ---
 | Character Count | Count number of characters of an input string. | [Source](examples/python/string/character-count.py) | N/A
 | String Reverse | Provide reverse order of input string. | N/A | N/A
+| String Explode | Split a string into an array with specified separator string. | N/A | N/A
 
 ### Array
 
@@ -50,14 +53,24 @@ This project is urgently seeking for contributors of following categories:
 | --- | --- | --- | ---
 | Array Length | Get item count of an input array. | [Source](examples/python/array/array-length.py) | N/A
 | Array Sum | Sum all numbers together from an input number array. | N/A | N/A
+| Array Reverse | Provide reverse order of input array. | N/A | N/A
+| Array Implode | Concatenate array items into string with specified separator string. | N/A | N/A
 
 ### Bytes
 
 TBA
 
+### Casting
+
+| Name | Description | Python | C#
+| --- | --- | --- | ---
+| Integer to String | Convert input number to string format. | N/A | N/A
+
 ### Storage
 
-TBA
+| Name | Description | Python | C#
+| --- | --- | --- | ---
+| Storage Echo | TBA | N/A | N/A
 
 ### Block
 
@@ -81,7 +94,17 @@ TBA
 | Is Address | Check if invoker's address matches an input address. | N/A | N/A
 | Is Address (Witness) | Check if invoker's address matches an input address through `CheckWitness` method. | N/A | N/A
 
+### Blockchain
+
+| Name | Description | Python | C#
+| --- | --- | --- | ---
+| Dynamic App Call | TBA | N/A | N/A
+
 ### Validation
+
+TBA
+
+### Random
 
 TBA
 
@@ -93,6 +116,8 @@ TBA
 | --- | --- | --- | ---
 | Functional Utilities | TBA | [Source](use-cases/python/functional-utilities/functional-utilities.py) | N/A
 | Dictionary | Storage example usage to keep track of stored key value pairs. | N/A | N/A
+| Store Serialized Objects | TBA | N/A | N/A
+| Multi File Code Structure | TBA | N/A | N/A
 
 ---
 

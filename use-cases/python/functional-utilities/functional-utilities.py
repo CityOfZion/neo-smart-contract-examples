@@ -9,6 +9,9 @@ Available on MainNet:           False
 Example Build Test Command:     build /path/to/functional-utilities.py test 0710 05 False False
 Example Import Command:         import contract /path/to/functional-utilities.avm 0710 05 False False
 Example Invoke:                 testinvoke 0f9e32078d36d73a198fbf3f62bdb1c997b7ee3f
+
+Todo:
+    - Byte operations: https://github.com/CityOfZion/neo-boa/blob/development/boa_test/example/BinopTest.py
 """
 
 
