@@ -18,15 +18,32 @@
 
 ### From `lint` workstation
 
-#### Constant - 42
+#### Constant
 
-* `build /Users/lint/ProjectGit/rockacola/neo-smart-contract-examples/examples/python/01-constant/forty-two.py test ff 02 False False`
-* `import contract /Users/lint/ProjectGit/rockacola/neo-smart-contract-examples/examples/python/01-constant/forty-two.avm ff 02 False False`
+##### 42
 
-#### Number - Add
+``` py
+build /Users/lint/ProjectGit/rockacola/neo-smart-contract-examples/examples/python/constant/forty-two.py test ff 02 False False
+import contract /Users/lint/ProjectGit/rockacola/neo-smart-contract-examples/examples/python/constant/forty-two.avm ff 02 False False
+```
 
-* `build /Users/lint/ProjectGit/rockacola/neo-smart-contract-examples/examples/python/02-number/add.py test 0505 02 False False 2 5`
-* `import contract /Users/lint/ProjectGit/rockacola/neo-smart-contract-examples/examples/python/02-number/add.avm 0505 02 False False`
+#### Number
+
+##### Add
+
+``` py
+build /Users/lint/ProjectGit/rockacola/neo-smart-contract-examples/examples/python/number/add.py test 0505 02 False False 2 5
+import contract /Users/lint/ProjectGit/rockacola/neo-smart-contract-examples/examples/python/number/add.avm 0505 02 False False
+```
+
+#### String
+
+##### Character Count
+
+``` py
+build /Users/lint/ProjectGit/rockacola/neo-smart-contract-examples/examples/python/string/character-count.py test 07 02 False False lorem
+import contract /Users/lint/ProjectGit/rockacola/neo-smart-contract-examples/examples/python/string/character-count.avm 07 02 False False
+```
 
 ---
 
