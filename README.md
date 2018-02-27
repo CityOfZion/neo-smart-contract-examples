@@ -14,21 +14,34 @@ Check out `/examples` directory for various of example smart contracts in differ
 
 | Name | Description | Python | C#
 | --- | --- | --- | ---
-| Forty Two | Returns `42`, that's it | [Source](examples/python/constant/forty-two.py) | N/A
+| Forty Two | Returns `42`, that's it. | [Source](examples/python/constant/forty-two.py) | N/A
+| Local Variable | Returns string value of a local constant. | N/A | N/A
+| Global Variable | Returns integer value of a global constant. | N/A | N/A
+| Global Variable 2 | Returns bytes value of a global constant. | N/A | N/A
 
 ### Number
 
 | Name | Description | Python | C#
 | --- | --- | --- | ---
-| Add | Sum 2 input numbers together | [Source](examples/python/number/add.py) | N/A
+| Add | Sum 2 input numbers together. | [Source](examples/python/number/add.py) | N/A
+| Multiply | Multiply 2 input numbers together. | N/A | N/A
+| Square | Returns square of an input number. | N/A | N/A
+| Power | Base to the exponent power of input numbers. | N/A | N/A
+| Fibonacci | Fibonacci value of an input number. | N/A | N/A
 
 ### String
 
-TBA
+| Name | Description | Python | C#
+| --- | --- | --- | ---
+| Character Count | Count number of characters of an input string. | N/A | N/A
+| String Reverse | Provide reverse order of input string. | N/A | N/A
 
 ### Array
 
-TBA
+| Name | Description | Python | C#
+| --- | --- | --- | ---
+| Array Length | Get item count of an input array. | N/A | N/A
+| Array Sum | Sum all numbers together from an input number array. | N/A | N/A
 
 ### Bytes
 
@@ -40,11 +53,25 @@ TBA
 
 ### Block
 
-TBA
+| Name | Description | Python | C#
+| --- | --- | --- | ---
+| Block Height | Get current block height. | N/A | N/A
+| Current Timestamp | Get timestamp of current block. | N/A | N/A
+| Block Timestamp | Get timestamp of a given block height. | N/A | N/A
+| Block Merkle | Get merkle value of a given block height. | N/A | N/A
+| Block Hash | Get hash of a given block height. | N/A | N/A
+| Block Consensus | Get consensus value of a given block height. | N/A | N/A
+| Next Consensus | Get next consensus value of a given block height. | N/A | N/A
 
 ### Account
 
-TBA
+| Name | Description | Python | C#
+| --- | --- | --- | ---
+| My Address | Get contract invoker's address. | N/A | N/A
+| Target Address | Get contract target's address. | N/A | N/A
+| Is Owner | Check if invoker's address matches a stored address. | N/A | N/A
+| Is Address | Check if invoker's address matches an input address. | N/A | N/A
+| Is Address (Witness) | Check if invoker's address matches an input address through `CheckWitness` method. | N/A | N/A
 
 ### Validation
 
@@ -57,6 +84,7 @@ TBA
 | Name | Description | Python | C#
 | --- | --- | --- | ---
 | Functional Utilities | TBA | [Source](use-cases/python/functional-utilities/functional-utilities.py) | N/A
+| Dictionary | Storage example usage to keep track of stored key value pairs. | N/A | N/A
 
 ---
 

@@ -25,6 +25,7 @@ This project is current under rapid developments a general guidelines are:
 ### Python
 
 * Please follow the same comment format as seem in existing example.
+* Although not reinforced, you are recommended to follow [PEP 8] style guide.
 * Although not reinforced, you are recommended to lint your code through `pydocstyle`.
 * To reduce developers learning curve, [PEP 484 Type Hints](https://www.python.org/dev/peps/pep-0484/) are not to be used in example contracts.
 * Usage of [PEP 484 Type Hints](https://www.python.org/dev/peps/pep-0484/) is allowed in use case contracts.
