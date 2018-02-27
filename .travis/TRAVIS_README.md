@@ -83,6 +83,33 @@ build /Users/travis/ProjectGit/rockacola/neo-smart-contract-examples/examples/py
 import contract /Users/travis/ProjectGit/rockacola/neo-smart-contract-examples/examples/python/account/is-owner.avm ff 01 False False
 ```
 
+#### Use Cases
+
+##### Functional Utilities
+
+``` py
+build /Users/travis/ProjectGit/rockacola/neo-smart-contract-examples/use-cases/python/functional-utilities/functional-utilities.py test 0710 05 False False version
+build /Users/travis/ProjectGit/rockacola/neo-smart-contract-examples/use-cases/python/functional-utilities/functional-utilities.py test 0710 05 False False add [2,5]
+build /Users/travis/ProjectGit/rockacola/neo-smart-contract-examples/use-cases/python/functional-utilities/functional-utilities.py test 0710 05 False False multiply [7,6]
+build /Users/travis/ProjectGit/rockacola/neo-smart-contract-examples/use-cases/python/functional-utilities/functional-utilities.py test 0710 05 False False square [6]
+build /Users/travis/ProjectGit/rockacola/neo-smart-contract-examples/use-cases/python/functional-utilities/functional-utilities.py test 0710 05 False False power [2,8]
+build /Users/travis/ProjectGit/rockacola/neo-smart-contract-examples/use-cases/python/functional-utilities/functional-utilities.py test 0710 05 False False fibonacci [7]
+build /Users/travis/ProjectGit/rockacola/neo-smart-contract-examples/use-cases/python/functional-utilities/functional-utilities.py test 0710 05 False False character_count ['lorem']
+build /Users/travis/ProjectGit/rockacola/neo-smart-contract-examples/use-cases/python/functional-utilities/functional-utilities.py test 0710 05 False False string_reverse ['lorem']
+build /Users/travis/ProjectGit/rockacola/neo-smart-contract-examples/use-cases/python/functional-utilities/functional-utilities.py test 0710 05 False False array_length [1,2,3]
+build /Users/travis/ProjectGit/rockacola/neo-smart-contract-examples/use-cases/python/functional-utilities/functional-utilities.py test 0710 05 False False array_sum [1,2,3]
+build /Users/travis/ProjectGit/rockacola/neo-smart-contract-examples/use-cases/python/functional-utilities/functional-utilities.py test 0710 05 False False current_height []
+build /Users/travis/ProjectGit/rockacola/neo-smart-contract-examples/use-cases/python/functional-utilities/functional-utilities.py test 0710 05 False False current_timestamp []
+build /Users/travis/ProjectGit/rockacola/neo-smart-contract-examples/use-cases/python/functional-utilities/functional-utilities.py test 0710 05 False False get_timestamp [1]
+build /Users/travis/ProjectGit/rockacola/neo-smart-contract-examples/use-cases/python/functional-utilities/functional-utilities.py test 0710 05 False False get_merkle [1]
+build /Users/travis/ProjectGit/rockacola/neo-smart-contract-examples/use-cases/python/functional-utilities/functional-utilities.py test 0710 05 False False get_block_hash [1]
+build /Users/travis/ProjectGit/rockacola/neo-smart-contract-examples/use-cases/python/functional-utilities/functional-utilities.py test 0710 05 False False get_consensus [1]
+build /Users/travis/ProjectGit/rockacola/neo-smart-contract-examples/use-cases/python/functional-utilities/functional-utilities.py test 0710 05 False False get_next_consensus [1]
+
+import contract /Users/travis/ProjectGit/rockacola/neo-smart-contract-examples/use-cases/python/functional-utilities/functional-utilities.avm 0710 05 False False
+```
+
+
 ---
 
 ## Developer Notes
@@ -91,9 +118,7 @@ import contract /Users/travis/ProjectGit/rockacola/neo-smart-contract-examples/e
 
 #### High Priority
 
-* Clean up `functional-utilities`.
 * Add examples by split up `UtilContract`.
-* Update README with possible examples.
 * Once done above, sync to `master`.
 * Establish communication to seek for C# dev and Chinese translators.
 
