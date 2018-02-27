@@ -39,6 +39,7 @@
 * Clean up `functional-utilities`.
 * Add examples by split up `UtilContract`.
 * Update README with possible examples.
+* Once done above, sync to `master`.
 * Establish communication to seek for C# dev and Chinese translators.
 
 #### Medium Priority
