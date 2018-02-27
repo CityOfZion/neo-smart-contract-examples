@@ -54,6 +54,26 @@ build /Users/lint/ProjectGit/rockacola/neo-smart-contract-examples/examples/pyth
 import contract /Users/lint/ProjectGit/rockacola/neo-smart-contract-examples/examples/python/array/array-length.avm 10 02 False False
 ```
 
+### From `travis` workstation
+
+#### Number
+
+##### Add
+
+``` py
+build /Users/travis/ProjectGit/rockacola/neo-smart-contract-examples/examples/python/number/add.py test 0505 02 False False 2 5
+import contract /Users/travis/ProjectGit/rockacola/neo-smart-contract-examples/examples/python/number/add.avm 0505 02 False False
+```
+
+#### Block
+
+##### Current Height
+
+``` py
+build /Users/travis/ProjectGit/rockacola/neo-smart-contract-examples/examples/python/block/current-height.py test ff 02 False False
+import contract /Users/travis/ProjectGit/rockacola/neo-smart-contract-examples/examples/python/block/current-height.avm ff 02 False False
+```
+
 ---
 
 ## Developer Notes
