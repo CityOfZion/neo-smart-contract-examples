@@ -1,6 +1,4 @@
 """
-License:                        MIT
-Author:                         Travis Lin
 Date Created:                   2018-02-27
 Date Modified:                  2018-02-27
 Version:                        1

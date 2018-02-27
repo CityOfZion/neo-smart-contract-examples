@@ -99,17 +99,18 @@ TBA
 
 * [Contract Parameter Type Reference](docs/contract-parameter-type.md)
 
-### External Resources
+### Resources
 
+* [Python Smart Contract Workshop](https://github.com/CityOfZion/python-smart-contract-workshop)
 * [Running a private network of the NEO blockchain](https://medium.com/proof-of-working/how-to-run-a-private-network-of-the-neo-blockchain-d83004557359)
 
 ---
 
 ## Contribution
 
-`neo-smart-contract-examples` is driven by community code contribution. Before contributing please read the [contributor guidelines](.github/CONTRIBUTING.md) and search the issue tracker as your issue may have already been discussed or fixed. To contribute, fork `neo-smart-contract-examples`, commit your changes and submit a pull request.
+`neo-smart-contract-examples` is driven by community code contribution. Before contributing please read the [contributor guidelines](.github/CONTRIBUTING.md) and search the issue tracker as your issue may have already been discussed or fixed. To contribute, fork this project, commit your changes and submit a pull request.
 
-By contributing to `neo-smart-contract-examples`, you agree that your contributions will be licensed under its MIT license.
+By contributing to this project, you agree that your contributions will be licensed under its MIT license.
 
 ---
 
