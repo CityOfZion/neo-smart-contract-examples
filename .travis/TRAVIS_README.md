@@ -45,6 +45,15 @@ build /Users/lint/ProjectGit/rockacola/neo-smart-contract-examples/examples/pyth
 import contract /Users/lint/ProjectGit/rockacola/neo-smart-contract-examples/examples/python/string/character-count.avm 07 02 False False
 ```
 
+#### Array
+
+##### Array Length
+
+``` py
+build /Users/lint/ProjectGit/rockacola/neo-smart-contract-examples/examples/python/array/array-length.py test 10 02 False False [True,'two',3]
+import contract /Users/lint/ProjectGit/rockacola/neo-smart-contract-examples/examples/python/array/array-length.avm 10 02 False False
+```
+
 ---
 
 ## Developer Notes

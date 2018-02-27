@@ -40,14 +40,14 @@ This project is urgently seeking for contributors of following categories:
 
 | Name | Description | Python | C#
 | --- | --- | --- | ---
-| Character Count | Count number of characters of an input string. | N/A | N/A
+| Character Count | Count number of characters of an input string. | [Source](examples/python/string/character-count.py) | N/A
 | String Reverse | Provide reverse order of input string. | N/A | N/A
 
 ### Array
 
 | Name | Description | Python | C#
 | --- | --- | --- | ---
-| Array Length | Get item count of an input array. | N/A | N/A
+| Array Length | Get item count of an input array. | [Source](examples/python/array/array-length.py) | N/A
 | Array Sum | Sum all numbers together from an input number array. | N/A | N/A
 
 ### Bytes
