@@ -35,6 +35,7 @@ This project is urgently seeking for contributors of following categories:
 | Square | Returns square of an input number. | N/A | N/A
 | Power | Base to the exponent power of input numbers. | N/A | N/A
 | Fibonacci | Fibonacci value of an input number. | N/A | N/A
+| Is Prime | Check if an input number is a prime number. | N/A | N/A
 
 ### String
 
@@ -62,7 +63,7 @@ TBA
 
 | Name | Description | Python | C#
 | --- | --- | --- | ---
-| Block Height | Get current block height. | N/A | N/A
+| Current Height | Get current block height. | [Source](examples/python/block/current-height.py) | N/A
 | Current Timestamp | Get timestamp of current block. | N/A | N/A
 | Block Timestamp | Get timestamp of a given block height. | N/A | N/A
 | Block Merkle | Get merkle value of a given block height. | N/A | N/A
@@ -76,7 +77,7 @@ TBA
 | --- | --- | --- | ---
 | My Address | Get contract invoker's address. | N/A | N/A
 | Target Address | Get contract target's address. | N/A | N/A
-| Is Owner | Check if invoker's address matches a stored address. | N/A | N/A
+| Is Owner | Check if invoker's address matches a static address. | [Source](examples/python/account/is-owner.py) | N/A
 | Is Address | Check if invoker's address matches an input address. | N/A | N/A
 | Is Address (Witness) | Check if invoker's address matches an input address through `CheckWitness` method. | N/A | N/A
 
@@ -99,17 +100,18 @@ TBA
 
 * [Contract Parameter Type Reference](docs/contract-parameter-type.md)
 
-### External Resources
+### Resources
 
+* [Python Smart Contract Workshop](https://github.com/CityOfZion/python-smart-contract-workshop)
 * [Running a private network of the NEO blockchain](https://medium.com/proof-of-working/how-to-run-a-private-network-of-the-neo-blockchain-d83004557359)
 
 ---
 
 ## Contribution
 
-`neo-smart-contract-examples` is driven by community code contribution. Before contributing please read the [contributor guidelines](.github/CONTRIBUTING.md) and search the issue tracker as your issue may have already been discussed or fixed. To contribute, fork `neo-smart-contract-examples`, commit your changes and submit a pull request.
+`neo-smart-contract-examples` is driven by community code contribution. Before contributing please read the [contributor guidelines](.github/CONTRIBUTING.md) and search the issue tracker as your issue may have already been discussed or fixed. To contribute, fork this project, commit your changes and submit a pull request.
 
-By contributing to `neo-smart-contract-examples`, you agree that your contributions will be licensed under its MIT license.
+By contributing to this project, you agree that your contributions will be licensed under its MIT license.
 
 ---
 

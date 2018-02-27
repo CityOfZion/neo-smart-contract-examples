@@ -1,6 +1,4 @@
 """
-License:                        MIT
-Author:                         Travis Lin
 Date Created:                   2018-02-27
 Date Modified:                  2018-02-27
 Version:                        1
@@ -23,5 +21,5 @@ def Main(text):
     :return: Character count of the input string
     :rtype: int
     """
-    result = len(text)  # Obtain string length by using built in len() function
+    result = len(text)  # Obtain string length by using built-in len() function
     return result
