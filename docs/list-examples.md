@@ -1,91 +1,40 @@
 ## Smart Contract Examples
 
-### Constant
-
-| Name | Description | Python | C#
-| --- | --- | --- | ---
-| Forty Two | Returns `42`, that's it. | [Source](../examples/python/constant/forty-two.py) | N/A
-| Local Variable | Returns string value of a local constant. | N/A | N/A
-| Global Variable | Returns integer value of a global constant. | N/A | N/A
-| Global Variable 2 | Returns bytes value of a global constant. | N/A | N/A
-| Echo | TBA | N/A | N/A
-
-### Number
-
-| Name | Description | Python | C#
-| --- | --- | --- | ---
-| Add | Sum 2 input numbers together. | [Source](../examples/python/number/add.py) | N/A
-| Multiply | Multiply 2 input numbers together. | N/A | N/A
-| Square | Returns square of an input number. | N/A | N/A
-| Power | Base to the exponent power of input numbers. | N/A | N/A
-| Fibonacci | Fibonacci value of an input number. | N/A | N/A
-| Is Prime | Check if an input number is a prime number. | N/A | N/A
-
-### String
-
-| Name | Description | Python | C#
-| --- | --- | --- | ---
-| Character Count | Count number of characters of an input string. | [Source](../examples/python/string/character-count.py) | N/A
-| String Reverse | Provide reverse order of input string. | N/A | N/A
-| String Explode | Split a string into an array with specified separator string. | N/A | N/A
-
-### Array
-
-| Name | Description | Python | C#
-| --- | --- | --- | ---
-| Array Length | Get item count of an input array. | [Source](../examples/python/array/array-length.py) | N/A
-| Array Sum | Sum all numbers together from an input number array. | N/A | N/A
-| Array Reverse | Provide reverse order of input array. | N/A | N/A
-| Array Implode | Concatenate array items into string with specified separator string. | N/A | N/A
-
-### Bytes
-
-TBA
-
-### Casting
-
-| Name | Description | Python | C#
-| --- | --- | --- | ---
-| Integer to String | Convert input number to string format. | N/A | N/A
-
-### Storage
-
-| Name | Description | Python | C#
-| --- | --- | --- | ---
-| Storage Echo | TBA | N/A | N/A
-
-### Block
-
-| Name | Description | Python | C#
-| --- | --- | --- | ---
-| Current Height | Get current block height. | [Source](../examples/python/block/current-height.py) | N/A
-| Current Timestamp | Get timestamp of current block. | N/A | N/A
-| Block Timestamp | Get timestamp of a given block height. | N/A | N/A
-| Block Merkle | Get merkle value of a given block height. | N/A | N/A
-| Block Hash | Get hash of a given block height. | N/A | N/A
-| Block Consensus | Get consensus value of a given block height. | N/A | N/A
-| Next Consensus | Get next consensus value of a given block height. | N/A | N/A
-
-### Account
-
-| Name | Description | Python | C#
-| --- | --- | --- | ---
-| My Address | Get contract invoker's address. | N/A | N/A
-| Target Address | Get contract target's address. | N/A | N/A
-| Is Owner | Check if invoker's address matches a static address. | [Source](../examples/python/account/is-owner.py) | N/A
-| Is Address | Check if invoker's address matches an input address. | N/A | N/A
-| Is Address (Witness) | Check if invoker's address matches an input address through `CheckWitness` method. | N/A | N/A
-
-### Blockchain
-
-| Name | Description | Python | C#
-| --- | --- | --- | ---
-| Dynamic App Call | TBA | N/A | N/A
-
-### Validation
-
-TBA
-
-### Random
-
-TBA
+| Category | Name | Description | Python | C#
+| --- | --- | --- | --- | ---
+| Constant | Forty Two | Returns `42`, that's it. | [Source](../examples/python/constant/forty-two.py) | N/A
+| Constant | Local Variable | Returns string value of a local constant. | N/A | N/A
+| Constant | Global Variable | Returns integer value of a global constant. | N/A | N/A
+| Constant | Global Variable 2 | Returns bytes value of a global constant. | N/A | N/A
+| Constant | Echo | ... | N/A | N/A
+| Number | Add | Sum 2 input numbers together. | [Source](../examples/python/number/add.py) | N/A
+| Number | Multiply | Multiply 2 input numbers together. | N/A | N/A
+| Number | Square | Returns square of an input number. | N/A | N/A
+| Number | Power | Base to the exponent power of input numbers. | N/A | N/A
+| Number | Fibonacci | Fibonacci value of an input number. | N/A | N/A
+| Number | Is Prime | Check if an input number is a prime number. | N/A | N/A
+| String | Character Count | Count number of characters of an input string. | [Source](../examples/python/string/character-count.py) | N/A
+| String | String Reverse | Provide reverse order of input string. | N/A | N/A
+| String | String Explode | Split a string into an array with specified separator string. | N/A | N/A
+| Array | Array Length | Get item count of an input array. | [Source](../examples/python/array/array-length.py) | N/A
+| Array | Array Sum | Sum all numbers together from an input number array. | N/A | N/A
+| Array | Array Reverse | Provide reverse order of input array. | N/A | N/A
+| Array | Array Implode | Concatenate array items into string with specified separator string. | N/A | N/A
+| Bytes | ... | ... | N/A | N/A
+| Casting | Integer to String | Convert input number to string format. | N/A | N/A
+| Storage | Storage Echo | ... | N/A | N/A
+| Block | Current Height | Get current block height. | [Source](../examples/python/block/current-height.py) | N/A
+| Block | Current Timestamp | Get timestamp of current block. | N/A | N/A
+| Block | Block Timestamp | Get timestamp of a given block height. | N/A | N/A
+| Block | Block Merkle | Get merkle value of a given block height. | N/A | N/A
+| Block | Block Hash | Get hash of a given block height. | N/A | N/A
+| Block | Block Consensus | Get consensus value of a given block height. | N/A | N/A
+| Block | Next Consensus | Get next consensus value of a given block height. | N/A | N/A
+| Account | My Address | Get contract invoker's address. | N/A | N/A
+| Account | Target Address | Get contract target's address. | N/A | N/A
+| Account | Is Owner | Check if invoker's address matches a static address. | [Source](../examples/python/account/is-owner.py) | N/A
+| Account | Is Address | Check if invoker's address matches an input address. | N/A | N/A
+| Account | Is Address (Witness) | Check if invoker's address matches an input address through `CheckWitness` method. | N/A | N/A
+| Blockchain | Dynamic App Call | ... | N/A | N/A
+| Validation | ... | ... | N/A | N/A
+| Random | ... | ... | N/A | N/A
