@@ -35,6 +35,7 @@ This project is urgently seeking for contributors of following categories:
 | Square | Returns square of an input number. | N/A | N/A
 | Power | Base to the exponent power of input numbers. | N/A | N/A
 | Fibonacci | Fibonacci value of an input number. | N/A | N/A
+| Is Prime | Check if an input number is a prime number. | N/A | N/A
 
 ### String
 
@@ -76,7 +77,7 @@ TBA
 | --- | --- | --- | ---
 | My Address | Get contract invoker's address. | N/A | N/A
 | Target Address | Get contract target's address. | N/A | N/A
-| Is Owner | Check if invoker's address matches a stored address. | N/A | N/A
+| Is Owner | Check if invoker's address matches a static address. | [Source](examples/python/account/is-owner.py) | N/A
 | Is Address | Check if invoker's address matches an input address. | N/A | N/A
 | Is Address (Witness) | Check if invoker's address matches an input address through `CheckWitness` method. | N/A | N/A
 
