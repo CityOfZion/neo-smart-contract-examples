@@ -4,7 +4,7 @@ Code examples on writing smart contract for tackling specific problem.
 
 | Category | Name | Description | Python | C#
 | --- | --- | --- | --- | ---
-| Constant | Forty Two | Returns `42`, that's it. | [Source](../examples/python/constant/forty_two.py) | N/A
+| Constant | Forty Two | Returns `42`, that's it. | [Source](../examples/python/constant/forty_two.py) | [Source](../examples/csharp/constant/forty_two.cs)
 | Constant | Local Variable | Returns string value of a local constant. | N/A | N/A
 | Constant | Global Variable | Returns integer value of a global constant. | N/A | N/A
 | Constant | Global Variable 2 | Returns bytes value of a global constant. | N/A | N/A
