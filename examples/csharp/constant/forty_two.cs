@@ -11,7 +11,7 @@ using Neo.SmartContract.Framework;
 // Example:
 // Test Invoke:                 ???
 // Expected Result:             42
-// Operation Count:             ???
+// Operation Count:             23
 // GAS Consumption:             0.016
 
 namespace Return42SmartContract
