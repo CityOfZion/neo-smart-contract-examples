@@ -9,7 +9,7 @@ Code examples on writing smart contract for tackling specific problem.
 | Constant | Global Variable | Returns integer value of a global constant. | N/A | N/A
 | Constant | Global Variable 2 | Returns bytes value of a global constant. | N/A | N/A
 | Constant | Echo | Returns the exact value as of its input. | N/A | N/A
-| Number | Add | Sum 2 input numbers together. | [Source](../examples/python/number/add.py) | N/A
+| Number | Add | Sum 2 input numbers together. | [Source](../examples/python/number/add.py) | [Source](../examples/csharp/number/add.py)
 | Number | Multiply | Multiply 2 input numbers together. | [Source](../examples/python/number/multiply.py) | N/A
 | Number | Square | Returns square of an input number. | [Source](../examples/python/number/square.py) | N/A
 | Number | Power | Base to the exponent power of input numbers. | [Source](../examples/python/number/power.py) | N/A
