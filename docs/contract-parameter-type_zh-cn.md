@@ -1,5 +1,5 @@
-# ºÏÔ¼²ÎÊıÀàĞÍ Contract Parameter Type
-ÔÚ [`ContractParameterType.py`](https://github.com/CityOfZion/neo-python/blob/master/neo/SmartContract/ContractParameterType.py) Ô´´úÂëÀï¿ÉÒÔÕÒµ½ÀàĞÍÖµÁĞ±í
+# åˆçº¦å‚æ•°ç±»å‹ Contract Parameter Type
+åœ¨ [`ContractParameterType.py`](https://github.com/CityOfZion/neo-python/blob/master/neo/SmartContract/ContractParameterType.py) æºä»£ç é‡Œå¯ä»¥æ‰¾åˆ°ç±»å‹å€¼åˆ—è¡¨
 
 ``` py
 Signature = 0x00
@@ -8,7 +8,7 @@ Integer = 0x02
 Hash160 = 0x03
 Hash256 = 0x04
 ByteArray = 0x05
-PublicKey = 0x06ÔÚ
+PublicKey = 0x06åœ¨
 String = 0x07
 Array = 0x10
 Void = 0xff

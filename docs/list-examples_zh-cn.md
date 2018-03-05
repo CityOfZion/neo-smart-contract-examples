@@ -1,63 +1,63 @@
-## ÖÇÄÜºÏÔ¼Ê¾Àı Smart Contract Examples
+## æ™ºèƒ½åˆçº¦ç¤ºä¾‹ Smart Contract Examples
 
-±àĞ´ÖÇÄÜºÏÔ¼À´½â¾ö¾ßÌåÎÊÌâµÄ´úÂëÊ¾ÀıÖÖÀà
+ç¼–å†™æ™ºèƒ½åˆçº¦æ¥è§£å†³å…·ä½“é—®é¢˜çš„ä»£ç ç¤ºä¾‹ç§ç±»
 
-| ÖÖÀà | Ãû×Ö | ÃèÊö | Python | C#
+| ç§ç±» | åå­— | æè¿° | Python | C#
 | --- | --- | --- | --- | ---
-| Constant | Forty Two | ·µ»Ø42,½ö´Ë¶øÒÑ | [Source](../examples/python/constant/forty_two.py) | N/A
-| Constant | Local Variable | ·µ»ØÒ»¸ö¾Ö²¿³£ÊıµÄ×Ö·û´®Öµ | N/A | N/A
-| Constant | Global Variable | ·µ»ØÒ»¸öÈ«¾Ö³£ÊıµÄÕûÊıÖµ | N/A | N/A
-| Constant | Global Variable 2 | ·µ»ØÒ»¸öÈ«¾Ö³£ÊıµÄ×Ö½ÚÊı×é | N/A | N/A
-| Constant | Echo | ·µ»ØÆäÊäÈëµÄÖµ | N/A | N/A
-| Number | Add | °ÑÁ½¸öÊäÈëµÄÊı×ÖÏà¼Ó | [Source](../examples/python/number/add.py) | N/A
-| Number | Multiply | °ÑÁ½¸öÊäÈëµÄÊı×ÖÏà³Ë | [Source](../examples/python/number/multiply.py) | N/A
-| Number | Square | ·µ»ØÒ»¸öÊäÈëÊı×ÖµÄÆ½·½ | [Source](../examples/python/number/square.py) | N/A
-| Number | Power | »ùÓÚÊäÈëÊı×ÖµÄÖ¸Êı´ÎÃİ | [Source](../examples/python/number/power.py) | N/A
-| Number | Fibonacci | ·µ»ØÒ»¸öÊäÈëÊı×ÖµÄì³²¨ÄÉÆõÖµ | [Source](../examples/python/number/fibonacci.py) | N/A
-| Number | Is Prime | ¼ì²éÒ»¸öÊäÈëµÄÊı×ÖÊÇ·ñÒ»¸öËØÊı | N/A | N/A
-| Number | Minimum | ÕÒµ½Á½¸öÊäÈëÊı×ÖÖĞ×îĞ¡µÄÄÇ¸ö | N/A | N/A
-| Number | Maximum | ÕÒµ½Á½¸öÊäÈëÊı×ÖÖĞ×î´óµÄÄÇ¸ö | N/A | N/A
-| Number | Absolute | È¡Ò»¸öÊäÈëÊı×ÖµÄ¾ø¶ÔÖµ | N/A | N/A
-| String | Character Count | ¼ÆËãÊäÈë×Ö·û´®µÄ×Ö·ûÊı | [Source](../examples/python/string/character_count.py) | N/A
-| String | String Reverse | Ìá¹©ÊäÈë×Ö·û´®µÄ·´ÏòË³Ğò | [Source](../examples/python/string/string_reverse.py) | N/A
-| String | String Explode | ½«×Ö·û´®²ğ·ÖÎª¾ßÓĞÖ¸¶¨·Ö¸ô·û×Ö·û´®µÄÊı×é | N/A | N/A
+| Constant | Forty Two | è¿”å›42,ä»…æ­¤è€Œå·² | [Source](../examples/python/constant/forty_two.py) | N/A
+| Constant | Local Variable | è¿”å›ä¸€ä¸ªå±€éƒ¨å¸¸æ•°çš„å­—ç¬¦ä¸²å€¼ | N/A | N/A
+| Constant | Global Variable | è¿”å›ä¸€ä¸ªå…¨å±€å¸¸æ•°çš„æ•´æ•°å€¼ | N/A | N/A
+| Constant | Global Variable 2 | è¿”å›ä¸€ä¸ªå…¨å±€å¸¸æ•°çš„å­—èŠ‚æ•°ç»„ | N/A | N/A
+| Constant | Echo | è¿”å›å…¶è¾“å…¥çš„å€¼ | N/A | N/A
+| Number | Add | æŠŠä¸¤ä¸ªè¾“å…¥çš„æ•°å­—ç›¸åŠ  | [Source](../examples/python/number/add.py) | N/A
+| Number | Multiply | æŠŠä¸¤ä¸ªè¾“å…¥çš„æ•°å­—ç›¸ä¹˜ | [Source](../examples/python/number/multiply.py) | N/A
+| Number | Square | è¿”å›ä¸€ä¸ªè¾“å…¥æ•°å­—çš„å¹³æ–¹ | [Source](../examples/python/number/square.py) | N/A
+| Number | Power | åŸºäºè¾“å…¥æ•°å­—çš„æŒ‡æ•°æ¬¡å¹‚ | [Source](../examples/python/number/power.py) | N/A
+| Number | Fibonacci | è¿”å›ä¸€ä¸ªè¾“å…¥æ•°å­—çš„æ–æ³¢çº³å¥‘å€¼ | [Source](../examples/python/number/fibonacci.py) | N/A
+| Number | Is Prime | æ£€æŸ¥ä¸€ä¸ªè¾“å…¥çš„æ•°å­—æ˜¯å¦ä¸€ä¸ªç´ æ•° | N/A | N/A
+| Number | Minimum | æ‰¾åˆ°ä¸¤ä¸ªè¾“å…¥æ•°å­—ä¸­æœ€å°çš„é‚£ä¸ª | N/A | N/A
+| Number | Maximum | æ‰¾åˆ°ä¸¤ä¸ªè¾“å…¥æ•°å­—ä¸­æœ€å¤§çš„é‚£ä¸ª | N/A | N/A
+| Number | Absolute | å–ä¸€ä¸ªè¾“å…¥æ•°å­—çš„ç»å¯¹å€¼ | N/A | N/A
+| String | Character Count | è®¡ç®—è¾“å…¥å­—ç¬¦ä¸²çš„å­—ç¬¦æ•° | [Source](../examples/python/string/character_count.py) | N/A
+| String | String Reverse | æä¾›è¾“å…¥å­—ç¬¦ä¸²çš„åå‘é¡ºåº | [Source](../examples/python/string/string_reverse.py) | N/A
+| String | String Explode | å°†å­—ç¬¦ä¸²æ‹†åˆ†ä¸ºå…·æœ‰æŒ‡å®šåˆ†éš”ç¬¦å­—ç¬¦ä¸²çš„æ•°ç»„ | N/A | N/A
 | String | Take | ... | N/A | N/A
-| Array | Array Length | »ñÈ¡ÊäÈëÊı×éµÄ³¤¶È | [Source](../examples/python/array/array_length.py) | N/A
-| Array | Array Sum | ´ÓÊäÈëÊı×ÖÊı×éÖĞ»ã×ÜËùÓĞÊı×Ö | [Source](../examples/python/array/array_sum.py) | N/A
-| Array | Array Reverse | Ìá¹©ÊäÈëÊı×éµÄ·´ÏòË³Ğò | N/A | N/A
-| Array | Array Implode | Ê¹ÓÃÖ¸¶¨µÄ·Ö¸ô·û´®½«Êı×éÏîÁ¬½Ó³É×Ö·û´® | N/A | N/A
-| Array | Push | ÔÚÖ¸¶¨µÄÊı×éÖĞÌí¼ÓÒ»¸öÊäÈëÊı×Ö²¢½«´ËÊı×é·µ»Ø | N/A | N/A
-| Array | Pop | ´ÓÖ¸¶¨Êı×éÖĞÉ¾³ıÊäÈëË÷ÒıµÄÖµ²¢·µ»Ø | N/A | N/A
-| Array | Get Value | ´ÓÖ¸¶¨Êı×éÖĞ»ñÈ¡ÊäÈëË÷ÒıµÄÖµ | N/A | N/A
-| Array | Minimum | ÕÒµ½ÊäÈëintÊı×éµÄ×îĞ¡µÄÒ»¸ö | N/A | N/A
-| Array | Maximum | ÕÒµ½ÊäÈëintÊı×éµÄ×î´óµÄÒ»¸ö | N/A | N/A
+| Array | Array Length | è·å–è¾“å…¥æ•°ç»„çš„é•¿åº¦ | [Source](../examples/python/array/array_length.py) | N/A
+| Array | Array Sum | ä»è¾“å…¥æ•°å­—æ•°ç»„ä¸­æ±‡æ€»æ‰€æœ‰æ•°å­— | [Source](../examples/python/array/array_sum.py) | N/A
+| Array | Array Reverse | æä¾›è¾“å…¥æ•°ç»„çš„åå‘é¡ºåº | N/A | N/A
+| Array | Array Implode | ä½¿ç”¨æŒ‡å®šçš„åˆ†éš”ç¬¦ä¸²å°†æ•°ç»„é¡¹è¿æ¥æˆå­—ç¬¦ä¸² | N/A | N/A
+| Array | Push | åœ¨æŒ‡å®šçš„æ•°ç»„ä¸­æ·»åŠ ä¸€ä¸ªè¾“å…¥æ•°å­—å¹¶å°†æ­¤æ•°ç»„è¿”å› | N/A | N/A
+| Array | Pop | ä»æŒ‡å®šæ•°ç»„ä¸­åˆ é™¤è¾“å…¥ç´¢å¼•çš„å€¼å¹¶è¿”å› | N/A | N/A
+| Array | Get Value | ä»æŒ‡å®šæ•°ç»„ä¸­è·å–è¾“å…¥ç´¢å¼•çš„å€¼ | N/A | N/A
+| Array | Minimum | æ‰¾åˆ°è¾“å…¥intæ•°ç»„çš„æœ€å°çš„ä¸€ä¸ª | N/A | N/A
+| Array | Maximum | æ‰¾åˆ°è¾“å…¥intæ•°ç»„çš„æœ€å¤§çš„ä¸€ä¸ª | N/A | N/A
 | Array | Range | ... | N/A | N/A
 | Iterator | While Breaker | ... | N/A | N/A
 | Bytes | ... | ... | N/A | N/A
-| Encode | Integer to String | ½«ÊäÈëÊı×ª»»³É×Ö·û´®¸ñÊ½ | [Source](../examples/python/encode/int2str.py) | N/A
+| Encode | Integer to String | å°†è¾“å…¥æ•°è½¬æ¢æˆå­—ç¬¦ä¸²æ ¼å¼ | [Source](../examples/python/encode/int2str.py) | N/A
 | Encode | SHA1 | ... | N/A | N/A
 | Encode | SHA256 | ... | N/A | N/A
 | Encode | HASH160 | ... | N/A | N/A
 | Encode | HASH256 | ... | N/A | N/A
 | Storage | Storage Echo | ... | N/A | N/A
-| Block | Current Height | »ñµÃµ±Ç°Çø¿é¸ß¶È | [Source](../examples/python/block/current_height.py) | N/A
-| Block | Current Timestamp | »ñµÃµ±Ç°Çø¿éµÄÊ±¼ä´Á | [Source](../examples/python/block/current_timestamp.py) | N/A
-| Block | Block Timestamp | »ñµÃÒ»¸ö¸ø¶¨Çø¿é¸ß¶ÈµÄÊ±¼ä´Á | [Source](../examples/python/block/block_timestamp.py) | N/A
+| Block | Current Height | è·å¾—å½“å‰åŒºå—é«˜åº¦ | [Source](../examples/python/block/current_height.py) | N/A
+| Block | Current Timestamp | è·å¾—å½“å‰åŒºå—çš„æ—¶é—´æˆ³ | [Source](../examples/python/block/current_timestamp.py) | N/A
+| Block | Block Timestamp | è·å¾—ä¸€ä¸ªç»™å®šåŒºå—é«˜åº¦çš„æ—¶é—´æˆ³ | [Source](../examples/python/block/block_timestamp.py) | N/A
 | Block | Block Index | ... | N/A | N/A
 | Block | Block Version | ... | N/A | N/A
-| Block | Block Merkle Root | »ñµÃÒ»¸ö¸ø¶¨µÄÇø¿é¸ß¶ÈµÄÄ¬¿Ë¶û¸ù | [Source](../examples/python/block/block_merkle_root.py) | N/A
+| Block | Block Merkle Root | è·å¾—ä¸€ä¸ªç»™å®šçš„åŒºå—é«˜åº¦çš„é»˜å…‹å°”æ ¹ | [Source](../examples/python/block/block_merkle_root.py) | N/A
 | Block | Block Previous Hash | ... | N/A | N/A
-| Block | Block Hash | »ñµÃÒ»¸ö¸ø¶¨Çø¿é¸ß¶ÈµÄ¹şÏ£Öµ | [Source](../examples/python/block/block_hash.py) | N/A
-| Block | Block Consensus | »ñµÃÒ»¸ö¸ø¶¨Çø¿é¸ß¶ÈµÄ¹²Ê¶Öµ | [Source](../examples/python/block/block_consensus.py) | N/A
-| Block | Next Consensus | »ñµÃÒ»¸ö¸ø¶¨Çø¿é¸ß¶ÈµÄÏÂÒ»¸ö¹²Ê¶Öµ | [Source](../examples/python/block/next_consensus.py) | N/A
+| Block | Block Hash | è·å¾—ä¸€ä¸ªç»™å®šåŒºå—é«˜åº¦çš„å“ˆå¸Œå€¼ | [Source](../examples/python/block/block_hash.py) | N/A
+| Block | Block Consensus | è·å¾—ä¸€ä¸ªç»™å®šåŒºå—é«˜åº¦çš„å…±è¯†å€¼ | [Source](../examples/python/block/block_consensus.py) | N/A
+| Block | Next Consensus | è·å¾—ä¸€ä¸ªç»™å®šåŒºå—é«˜åº¦çš„ä¸‹ä¸€ä¸ªå…±è¯†å€¼ | [Source](../examples/python/block/next_consensus.py) | N/A
 | Block | Block Transaction Count | ... | N/A | N/A
 | Block | Block Transactions | ... | N/A | N/A
 | Block | Block Transaction | ... | N/A | N/A
-| Account | My Address | »ñÈ¡ºÏÔ¼µ÷ÓÃÕßµÄµØÖ· | N/A | N/A
-| Account | Target Address | »ñÈ¡ºÏÔ¼Ä¿±êµÄµØÖ· | N/A | N/A
-| Account | Is Owner | ¼ì²éµ÷ÓÃÕßµÄµØÖ·ÊÇ·ñÓë¾²Ì¬µØÖ·Æ¥Åä | [Source](../examples/python/account/is_owner.py) | N/A
-| Account | Is Address | ¼ì²éµ÷ÓÃÕßµÄµØÖ·ÊÇ·ñÓëÊäÈëµØÖ·Æ¥Åä | N/A | N/A
-| Account | Is Address (Witness) | ¼ì²éµ÷ÓÃÕßµÄµØÖ·ÊÇ·ñÔÚ¼øÖ¤ÈËÁĞ±íÖĞ(Í¨¹ıcheckwitness·½·¨) | N/A | N/A
+| Account | My Address | è·å–åˆçº¦è°ƒç”¨è€…çš„åœ°å€ | N/A | N/A
+| Account | Target Address | è·å–åˆçº¦ç›®æ ‡çš„åœ°å€ | N/A | N/A
+| Account | Is Owner | æ£€æŸ¥è°ƒç”¨è€…çš„åœ°å€æ˜¯å¦ä¸é™æ€åœ°å€åŒ¹é… | [Source](../examples/python/account/is_owner.py) | N/A
+| Account | Is Address | æ£€æŸ¥è°ƒç”¨è€…çš„åœ°å€æ˜¯å¦ä¸è¾“å…¥åœ°å€åŒ¹é… | N/A | N/A
+| Account | Is Address (Witness) | æ£€æŸ¥è°ƒç”¨è€…çš„åœ°å€æ˜¯å¦åœ¨é‰´è¯äººåˆ—è¡¨ä¸­(é€šè¿‡checkwitnessæ–¹æ³•) | N/A | N/A
 | Account | Get Hash | ... | N/A | N/A
 | Account | Get Votes | ... | N/A | N/A
 | Contract | Get Contract | ... | N/A | N/A
@@ -69,8 +69,8 @@
 | Blockchain | Dynamic App Call | ... | N/A | N/A
 | Validation | ... | ... | N/A | N/A
 | Random | ... | ... | N/A | N/A
-| Optimization | Condition Positions | ÑİÊ¾Ìõ¼şÓï¾äµÄÎ»ÖÃÈçºÎÓ°ÏìGASÏûºÄ | N/A | N/A
-| Optimization | Recursive vs Iterator | ÑİÊ¾Ê¹ÓÃÑ­»·Óëµİ¹éÊµÏÖµÄÏàÍ¬Âß¼­µÄGASÏûºÄ| N/A | N/A
+| Optimization | Condition Positions | æ¼”ç¤ºæ¡ä»¶è¯­å¥çš„ä½ç½®å¦‚ä½•å½±å“GASæ¶ˆè€— | N/A | N/A
+| Optimization | Recursive vs Iterator | æ¼”ç¤ºä½¿ç”¨å¾ªç¯ä¸é€’å½’å®ç°çš„ç›¸åŒé€»è¾‘çš„GASæ¶ˆè€—| N/A | N/A
 | Optimization | Cost of Notify | ... | N/A | N/A
 | Optimization | Throw if Null | ... | N/A | N/A
 | Optimization | Exception Handling | ... | N/A | N/A

@@ -1,10 +1,10 @@
-## ÖÇÄÜºÏÔ¼°¸Àı Smart Contract Use Cases
+## æ™ºèƒ½åˆçº¦æ¡ˆä¾‹ Smart Contract Use Cases
 
-ÎªĞ¡¹æÄ£ÕæÊµÓÃÀı±àĞ´ÖÇÄÜºÏÔ¼µÄ´úÂëÊ¾Àı
+ä¸ºå°è§„æ¨¡çœŸå®ç”¨ä¾‹ç¼–å†™æ™ºèƒ½åˆçº¦çš„ä»£ç ç¤ºä¾‹
 
 | Name | Description | Python | C#
 | --- | --- | --- | ---
-| Functional Utilities | ¹¦ÄÜÖúÊÖµÄ¼¯ºÏ | [Source](../use-cases/python/functional_utilities/functional_utilities.py) | N/A
-| Dictionary | ´æ´¢Ê¾ÀıÓÃÒÔ¸ú×ÙºÍ´æ´¢¼üÖµ¶Ô | N/A | N/A
-| Store Serialized Objects | ´æ´¢×Ô¶¨Òå¶ÔÏóµÄÊ¾ÀıÓÃ·¨ | N/A | N/A
-| Multiple File Code Structure | Éæ¼°¶à¸ö´úÂëÎÄ¼şµÄÖÇÄÜºÏÔ¼µÄÊ¾Àı´úÂë½á¹¹ | [Source](../use-cases/python/multi_file_structure/main.py) | N/A
+| Functional Utilities | åŠŸèƒ½åŠ©æ‰‹çš„é›†åˆ | [Source](../use-cases/python/functional_utilities/functional_utilities.py) | N/A
+| Dictionary | å­˜å‚¨ç¤ºä¾‹ç”¨ä»¥è·Ÿè¸ªå’Œå­˜å‚¨é”®å€¼å¯¹ | N/A | N/A
+| Store Serialized Objects | å­˜å‚¨è‡ªå®šä¹‰å¯¹è±¡çš„ç¤ºä¾‹ç”¨æ³• | N/A | N/A
+| Multiple File Code Structure | æ¶‰åŠå¤šä¸ªä»£ç æ–‡ä»¶çš„æ™ºèƒ½åˆçº¦çš„ç¤ºä¾‹ä»£ç ç»“æ„ | [Source](../use-cases/python/multi_file_structure/main.py) | N/A
