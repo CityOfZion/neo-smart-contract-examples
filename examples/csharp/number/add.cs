@@ -3,7 +3,8 @@ using Neo.SmartContract.Framework;
 // Date Created:                2018-03-03
 // Date Modified:               2018-03-03
 // Version:                     1
-// Contract Hash:               0x4f088dab7a5167adeda956881c213ace55b64ebd
+// Debug Contract Hash:         0x4f088dab7a5167adeda956881c213ace55b64ebd 
+// Release Contract Hash:       0x0860b720fa7a40312289ee94c6e0cadcc9251eed
 // Available on NEO TestNet:    False
 // Available on CoZ TestNet:    False
 // Available on MainNet:        False
