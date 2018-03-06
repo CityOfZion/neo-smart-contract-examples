@@ -8,11 +8,13 @@ using Neo.SmartContract.Framework;
 // Available on CoZ TestNet:    False
 // Available on MainNet:        False
 
-// Example:
-// Test Invoke:            
-// Expected Result:             7
-// Operation Count:             59
-// GAS Consumption:             0.043 (Debugger) / 0.054 (neo-gui-developer)  <-- Trying to get information about this difference of values
+// Example  
+// Input Params     :           0202
+// Output Params    :           02
+// Expected Result  :           7
+// Operation Count  :           Contract compiled in Debug: 60 / Contract compiled in Release: 34
+// GAS Consumption  :           Contract compiled in Debug:     0.043 (NEO Debugger) / 0.054 (neo-gui-developer)  
+// GAS Consumption  :           Contract compiled in Release:   0.024 (NEO Debugger) / 0.035 (neo-gui-developer)
 
 namespace SumSmartContract
 {
