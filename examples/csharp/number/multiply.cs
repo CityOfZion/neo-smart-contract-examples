@@ -1,10 +1,10 @@
 using Neo.SmartContract.Framework;
 
-// Date Created:                2018-03-03
-// Date Modified:               2018-03-03
+// Date Created:                2018-03-06
+// Date Modified:               2018-03-06
 // Version:                     1
-// Debug Contract Hash:         0x4f088dab7a5167adeda956881c213ace55b64ebd 
-// Release Contract Hash:       0x0860b720fa7a40312289ee94c6e0cadcc9251eed
+// Debug Contract Hash:         0x208d537c170d97927f30f1ad59039d0f50061de1 
+// Release Contract Hash:       0x3df1e6c8226b1ea2c2c88e1a061a98d1071a1b87
 // Available on NEO TestNet:    False
 // Available on CoZ TestNet:    False
 // Available on MainNet:        False
@@ -22,7 +22,7 @@ namespace SumSmartContract
     {
         public static int Main(int a, int b)
         {
-            var c = a + b;
+            var c = a * b;
             return c;
         }
     }
