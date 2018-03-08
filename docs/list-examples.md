@@ -5,7 +5,7 @@ Code examples on writing smart contract for tackling specific problem.
 | Category | Name | Description | Python | C#
 | --- | --- | --- | --- | ---
 | Constant | Forty Two | Returns `42`, that's it. | [Source](../examples/python/constant/forty_two.py) | [Source](../examples/csharp/constant/forty_two.cs)
-| Constant | Local Variable | Returns string value of a local constant. | N/A | N/A
+| Constant | Local Variable | Returns string value of a local constant. | [Source](../examples/python/constant/local_variable.py) | N/A
 | Constant | Global Variable | Returns integer value of a global constant. | N/A | N/A
 | Constant | Global Variable 2 | Returns bytes value of a global constant. | N/A | N/A
 | Constant | Echo | Returns the exact value as of its input. | N/A | N/A
@@ -15,7 +15,7 @@ Code examples on writing smart contract for tackling specific problem.
 | Number | Power | Base to the exponent power of input numbers. | [Source](../examples/python/number/power.py) | N/A
 | Number | Fibonacci | Fibonacci value of an input number. | [Source](../examples/python/number/fibonacci.py) | N/A
 | Number | Is Prime | Check if an input number is a prime number. | N/A | N/A
-| Number | Minimum | Find the smallest of 2 input numbers. | N/A | N/A
+| Number | Minimum | Find the smallest of 2 input numbers. | [Source](../examples/python/number/minimum.py) | N/A
 | Number | Maximum | Find the biggest of 2 input numbers. | N/A | N/A
 | Number | Absolute | Get the absolute value of an input number. | N/A | N/A
 | String | Character Count | Count number of characters of an input string. | [Source](../examples/python/string/character_count.py) | N/A
@@ -35,7 +35,7 @@ Code examples on writing smart contract for tackling specific problem.
 | Iterator | While Breaker | ... | N/A | N/A
 | Bytes | ... | ... | N/A | N/A
 | Encode | Integer to String | Convert input number to string format. | [Source](../examples/python/encode/int2str.py) | N/A
-| Encode | SHA1 | ... | N/A | N/A
+| Encode | SHA1 | Generate SHA1 hash value of input string. | [Source](../examples/python/encode/sha1.py) | N/A
 | Encode | SHA256 | ... | N/A | N/A
 | Encode | HASH160 | ... | N/A | N/A
 | Encode | HASH256 | ... | N/A | N/A
